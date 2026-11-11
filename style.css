@@ -237,47 +237,6 @@ body {
 .pillar-green { background: var(--green); }
 .pillar-grey { background: #7d766e; }
 
-.impressum {
-  max-width: 1000px;
-  margin: 0 auto 3rem;
-  padding: 2rem;
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-}
-
-.impressum h2 {
-  margin-bottom: 1.5rem;
-  font-size: 1.5rem;
-}
-
-.impressum-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.5rem;
-}
-
-@media (min-width: 700px) {
-  .impressum-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-.impressum p {
-  line-height: 1.7;
-  margin-bottom: 1rem;
-  font-size: 0.95rem;
-}
-
-.impressum a {
-  color: var(--red);
-  text-decoration: none;
-}
-
-.impressum a:hover {
-  text-decoration: underline;
-}
-
 footer p {
   margin-top: 0.5rem;
 }
