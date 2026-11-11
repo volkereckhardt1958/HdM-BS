@@ -39,6 +39,10 @@ body {
   text-decoration: underline;
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
 .hero {
   background: var(--black);
   color: var(--cream);
