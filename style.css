@@ -292,3 +292,9 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+.legal .stand {
+  margin-top: 2rem;
+  color: #8a837a;
+  font-size: 0.9rem;
+}
