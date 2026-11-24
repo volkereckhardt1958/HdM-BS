@@ -80,7 +80,7 @@ body {
   grid-template-columns: 1fr;
   gap: 2rem;
   max-width: 1000px;
-  margin: 3rem auto;
+  margin: 0 auto 3rem;
   padding: 0 1.5rem;
 }
 
@@ -94,10 +94,12 @@ body {
 .gebaeude {
   width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 8px 8px 8px 8px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
   display: block;
 }
+
+
 
 .caption {
   margin-top: 0.8rem;
